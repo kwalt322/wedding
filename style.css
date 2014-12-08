@@ -134,7 +134,7 @@ p {
 
 form{
     width: 80%;
-    margin:auto;
+    margin:30px auto;
 }
 
 #first{
@@ -165,7 +165,7 @@ form{
     height: 60px;
 }
 
-input{
+#submitbutton{
     border:none;
     width: 100%;
     background-color:white;
@@ -176,6 +176,178 @@ input{
     background-color: rgba(100,100,100,.1);
     color:white;
     cursor: pointer;
+}
+
+.subcomment{
+    line-height: 42%;
+}
+
+.commentsection p {
+    margin-top: 10px;
+}
+
+
+.dovearea {
+    margin:auto;
+    width: 100%;
+    text-align: right;
+}
+
+#bird20 {
+    margin-right: 0px;
+    opacity: 1;
+}
+
+.dovearea img {
+    margin-right: -7%;
+    opacity: 1;
+}
+
+#jump {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.divider {
+    width: 60%;
+    height: 5px;
+    background:none;
+    border-bottom: solid white 2px;
+    margin: 30px auto;
+}
+
+.author {
+    font-size: 11px;
+    margin-top: 4px;
+}
+
+#comcom {
+    margin-top: 16px;
+    border:solid white 1.5px;
+    background:transparent;
+    color:black;
+    width: 40%;
+}
+
+#comoncom {
+    width: 80%;
+    text-align: center;
+}
+
+#submitbutton2{
+    border:none;
+    width: 40%;
+    background-color:white;
+    margin-top: 5px;
+}
+
+#submitbutton2:hover{
+    background-color: rgba(100,100,100,.1);
+    color:white;
+    cursor: pointer;
+}
+
+.white {
+    color:white;
+}
+
+
+/*
+#bird2{
+    margin-bottom: 10px;
+}
+
+#bird3{
+    margin-bottom: 20px;
+}
+
+#bird4{
+    margin-bottom: 30px;
+}
+
+#bird5 {
+    margin-bottom: 40px;
+}
+
+#bird6 {
+    margin-bottom: 50px;
+}
+
+#bird7 {
+    margin-bottom: 60px;
+}
+
+#bird8 {
+    margin-bottom: 70px;
+}
+
+#bird9 {
+    margin-bottom: 80px;
+}
+
+#bird10 {
+    margin-bottom: 70px;
+}
+
+#bird11 {
+    margin-bottom: 60px;
+}
+
+#bird12 {
+    margin-bottom: 50px;
+}
+
+#bird13 {
+    margin-bottom: 40px;
+}
+
+#bird14 {
+    margin-bottom: 50px;
+}
+
+#bird15 {
+    margin-bottom: 60px;
+}
+
+#bird16 {
+    margin-bottom: 70px;
+}
+
+#bird17 {
+    margin-bottom: 80px;
+}
+
+#bird18 {
+    margin-bottom: 90px;
+}
+
+#bird19 {
+    margin-bottom: 100px;
+}
+
+#bird20 {
+    margin-bottom: 110px;
+}
+
+*/
+
+@media screen and (max-width: 888px) and (min-width: 800px) {
+
+.dovearea img {
+    margin-right: -65px;
+}
+
+}
+
+
+@media screen and (max-width: 799px) and (min-width: 200px) {
+
+.dovearea img {
+    margin-right: -88px;
+}
+
 }
 
 
